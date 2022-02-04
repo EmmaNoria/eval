@@ -56,14 +56,6 @@ public function setNombreDeCommande (int $nombreDeCommande) {
 public function getNombreDeCommande () {
    return $this->nombreDeCommande;
 }
-
-public function setTel (int $tel) {
-    $this->tel = $tel;
-}
-public function getTel () {
-   return $this->tel;
-}
-
 public function setTotalDepense (int $totalDepense) {
     $this->totalDepense = $totalDepense;
 }
